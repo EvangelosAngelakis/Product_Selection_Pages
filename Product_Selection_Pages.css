@@ -2,3 +2,8 @@ body {
     background-color: bisque;
     text-align: center;
 }
+.container1 {
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+}
