@@ -11,6 +11,7 @@ body {
     justify-content: space-between;
     justify-content: center;
     border: solid white;
+    padding-bottom: 40px;
 }
 .pages, .pages2 {
     display: flex;
@@ -18,11 +19,25 @@ body {
     justify-content: center;
     }
 .pages img {
-    width: 75%;
+    width: 65%;
+    border: solid white;
+    border-radius: 10px;
 }
 .pages2 img {
-    width: 75%;
+    width: 65%;
+    border: solid white;
+    border-radius: 10px;
 }
 button {
     font-size: 25px;
+}
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+#dButton {
+    align-self: flex-end;
+}
+#dButton2 {
+    align-self: flex-end;
 }
