@@ -1,17 +1,21 @@
 body {
-    background-color: bisque;
+    background-color: black;
     text-align: center;
 }
-.container1 {
-    display:flex;
+.container {
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
     justify-content: center;
-    border: solid black;
-    text-align: center;
+    border: solid white;
 }
 .pages, .pages2 {
-    display:flex;
+    display: flex;
     flex-direction: row;
-    justify-content: center;
-    text-align: center;
+    }
+.pages img {
+    width: 75%;
+}
+.pages2 img {
+    width: 75%;
 }

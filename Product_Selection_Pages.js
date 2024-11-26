@@ -1,3 +1,5 @@
-function pageReset(){
-location.reload()
-};
+
+function resetPage(){
+    location.reload();
+}
+
